@@ -1,0 +1,51 @@
+/* font */
+
+@font-face {
+    font-family: "DM Sans";
+    src: url("../fonts/DMSans-VariableFont.ttf");
+}
+
+/* margin off */
+
+body {
+    margin: 0;
+    font-family: "DM Sans"; 
+}
+
+/* header */
+
+/* logo */ 
+.header {
+    background-color: #191919;
+    /* max-width: 1440px; */
+    height: 119px;
+    width: 100%;
+    display: inline-block;
+}
+
+.logo {
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+
+/* links */
+
+.link-frame {
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-frame:hover {
+    color: #118DA8;
+}
+
+.frame {
+    display: flex;
+    width: 403px;
+    height: 67px;
+    gap: 40px;
+    margin-left: 987px;
+}
+
