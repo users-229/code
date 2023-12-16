@@ -49,3 +49,36 @@ body {
     margin-left: 987px;
 }
 
+/* container-studio */
+
+.container {
+    width: 1400px;
+    background-color: green;
+    width: 100%;
+}
+
+.container-studio {
+    width: 530px;
+    height: 913px;
+}
+
+.text-card-studio {
+    width: 530px;
+    height: 610px;
+    position: relative;
+    bottom: 600px;
+    left: 700px;
+}
+
+.studio {
+    width: 650px;
+    height: 873px;
+}
+
+.text-studio, .button-text-studio {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 3.2px;
+    font-style: normal;
+}
