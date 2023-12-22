@@ -10,6 +10,7 @@
 body {
     margin: 0;
     font-family: "DM Sans";
+    background-color: #191919;
 }
 
 /* header */
@@ -126,4 +127,44 @@ body {
     /* display: block; */
     position: relative;
     bottom: 35px;
+}
+
+/* lasted eepisodes */
+
+.heading-latest {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 400;
+    margin: 0;
+    /* display: inline-block; */
+}
+
+.button-heading {
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 6px;
+    width: 178px;
+    height: 51px;
+    background-color: #118DA8;
+    color: #fff;
+    border: 0;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 670px;
+}
+
+.container-lastest-heading {
+    width: 1300px;
+    height: 99px;
+    margin-left: 70px;
+}
+
+/* card */
+
+.card-should {
+    width: 1300px;
+    height: 545px;
+    margin-left: 70px;
 }
