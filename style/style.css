@@ -167,14 +167,47 @@ body {
     width: 1300px;
     max-height: 545px;
     margin-left: 70px;
+    border-radius: 32px;
+    background-color: #000;
 }
 
 .text-container-lates {
     width: 778px;
     height: 465px;
-    background-color: green;
+    background: #000;
     float: right;
-    margin-right: 133px;
+    margin-left: 13px;
+}
+
+
+.gear-button {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #191919 ;
+    border-radius: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 0;
+}
+
+.link-episode-3 {
+    text-decoration: none;
+    color: #118DA8;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.text-should {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.text-hardware {
+    color: rgba(255, 255, 255, 0.70); 
+    font-size: 22px;
+    font-weight: 400;
 }
 
 .button-lastest {
