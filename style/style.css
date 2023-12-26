@@ -63,6 +63,7 @@ body {
     height: 913px;
 }
 
+
 .text-card-studio {
     width: 530px;
     height: 610px;
@@ -169,14 +170,26 @@ body {
     margin-left: 70px;
     border-radius: 32px;
     background-color: #000;
+    margin-bottom: 60px;
+    /* margin-top: 39px; */
+}
+
+.card-should:first-child {
+    margin-top: 30px;
+}
+
+.img-card-lates {
+    margin-left: 40px;
+    margin-top: 40px;
 }
 
 .text-container-lates {
     width: 778px;
     height: 465px;
     background: #000;
-    float: right;
-    margin-left: 13px;
+    position: relative;
+    bottom: 470px;
+    left: 455px;
 }
 
 
@@ -189,6 +202,8 @@ body {
     padding-left: 16px;
     padding-right: 16px;
     border: 0;
+    display: block;
+    margin-bottom: 48px;
 }
 
 .link-episode-3 {
@@ -196,18 +211,24 @@ body {
     color: #118DA8;
     font-size: 17px;
     font-weight: 400;
+    margin-bottom: 18px;
+    display: block;
 }
 
 .text-should {
     color: #fff;
     font-size: 64px;
     font-weight: 400;
+    margin-bottom: 28px;
+    display: block;
 }
 
 .text-hardware {
     color: rgba(255, 255, 255, 0.70); 
     font-size: 22px;
     font-weight: 400;
+    margin-bottom: 24px;
+    display: block;
 }
 
 .button-lastest {
@@ -219,5 +240,5 @@ body {
     border-radius: 6px;
     background-color: #118DA8;
     border: 0;
-    margin-top: 50px;
 }
+
